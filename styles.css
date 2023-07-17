@@ -9,29 +9,32 @@ body{
 }
 #mainHeading {
     color: red;
+    font-size: 60px;
 }
 .funParagraph{
     color:green
 }
 
 #navi-bar{
-    width: 100%;
+    width: 97%;
     background-color: black;
     color: white;
     border: 1px solid black;
-    margin: 30px 10px;
+    margin: 0px auto 30px 30px;
     border-radius: 20px;
     padding: 2rem 2rem;
     text-align: center;
     align-items: center;
-    display: flex
+    display: flex;
+    position: fixed;
+    top: 0;
 }
 
 #navi-logo{
     width: 10%;
 }
 #navi-title{
-    width: 90%;
+    width: 70%;
 }
 
 h3{
@@ -39,13 +42,101 @@ h3{
     font-size: 45px;
     font-style: italic;
 }
+h1{
+    text-decoration: underline;
+}
+time{
+    margin-top: 60px;
+    font-size: 25px;
+}
 
 #logo-html-css{
-    width: 100%;
+    width: 85%;
     height: 275px;
+    margin: 250px auto 0; 
+    background-color: rgba(0, 255, 255, 0.241);
+    padding: 3rem 3rem;
+    text-align: center; 
+}
+#header{
+    margin: 90px auto;
+    width: 75%;
+    text-align: center;
+}
+
+main{
+    width: 65%;
+    text-align: center;
+    margin: 150px auto;
+    text-align: justify;
+}
+p{
+    font-size: 30px;
+    margin: 30px auto
+}
+#article{
+    width: 90%;
+    margin: 40px auto;
+    font-style: italic;
+    color: rgb(130, 126, 126);
+}
+.img{
+    width: 100%;
+    text-align: center; 
+    margin: 40px;
+}
+.link{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+a{
+    font-size: 40px;
     margin: 30px;
-   background-color: rgba(0, 255, 255, 0.241);
-   padding: 3rem 3rem;
+    color: red; 
+}
+#list{
+    width: 80%;
+    margin-left: 60px;;
+}
+ol, ul{
+    width: 80%;
+    font-size: 30px;
+}
+h2{
+    font-size: 45px;
+    margin: 60px 0;
+}
+#icon{
+    width: 100%;
+    text-align: center;
+}
+#zoom{
+    border: 3px solid black;
+    border-radius: 2rem;
+    box-shadow: 2rem;
+}
+#videos{
+    width: 85%;
+    margin: 80px;
+    display: flex;
    text-align: center;
-    
+}
+.dogs{
+    width: 50%;
+    display: inline-block;
+}
+video{
+    border: 3px solid black;
+}
+#footer{
+    width: 97%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin: 0px auto 30px 30px;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    text-align: left;
+    align-items: center;
 }
